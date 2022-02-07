@@ -16,8 +16,6 @@
         var uri = @Configuration.GetSection("ApplicationSetting")["baseUrl"];
         var result = WebUI.Client.GetData(uri);
     }
-
-
     <table>
         <tr>
             <th>
@@ -42,7 +40,5 @@
                 <td>@item.Summary</td>
             </tr>
         }
-
     </table>
-
 </div>
